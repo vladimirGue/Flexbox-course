@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo de autoprefixer</title>
+    <link rel="stylesheet" href="../build/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="top">
+            <h1><a href="#">What the Flexbox</a></h1>
+        </header>
+        <nav class="flex-nav">
+            <a href="#" class="toggleNav"> Menu</a>
+            <ul>
+                <li><a href="#">Item 01</a></li>
+                <li><a href="#">Item 02</a></li>
+                <li><a href="#">Item 03</a></li>
+                <li><a href="#">Item 04</a></li>
+                <li><a href="#">Item 05</a></li>
+                <li><a href="#">Item 06</a></li>
+                <li class="social">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <img src="http://placeimg.com/640/480/any" alt="">
+        </section>
+        <section class="details">
+            <p>A simple video course to help you Flexbox</p>
+            <p>sign up today to grab all the videos and exercises!</p>
+        </section>
+        <section class="signup">
+            <form action="" class="signup">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Email Address">
+                <input type="submit" placeholder="Sign me up!">
+            </form>
+        </section>
+        <footer>
+            <p>&copy; Wes Bos</p>
+        </footer>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/90e4de650c.js" crossorigin="anonymous"></script>
+
+<script>
+    $(function() {
+        $('.toggleNav').on('click',function() {
+            $('.flex-nav ul').toggleClass('open');
+        });
+    });
+</script>
+</body>
+</html>

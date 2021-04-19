@@ -1,0 +1,22 @@
+{
+  "name": "autoprefixer-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"gulp styles"
+  },
+  "author": "vlad",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "browserslist": "^4.16.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.10"
+  }
+}
